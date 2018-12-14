@@ -1,0 +1,22 @@
+<article>
+    <div class="container">
+        <div class="row" style="background-color: white">
+            <div class="col-lg-8 col-md-12 mx-auto text-justify">
+                {{#if username}}
+                <form class="form-inline" action="/delete/{{article_ID}}" method="POST">
+
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-outline-dark float-right">Delete</button>
+                        <button type="submit" formaction="/edit/{{article_ID}}" formmethod="GET" class="btn btn-outline-info float-right">Edit</button></a>
+                    </div>
+                </form>
+                {{/if}}
+                <h2 class="featurette-heading">{{title}}</h2>
+                <p class="lead">{{{content}}}</p>
+                <p>Text by
+                    <a href="/contact">{{fullName}}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</article>

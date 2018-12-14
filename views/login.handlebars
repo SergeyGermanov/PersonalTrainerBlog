@@ -1,0 +1,27 @@
+    <div class="form-group">
+        <div class="form-group col-md-12">
+            <br> {{#if loginFail}}
+            <div class="alert alert-danger alert-dismissable">
+                <p class="close" data-dismiss="alert" aria-label="close">×</p>
+                <p>You could not be logged in with that username or password.</p>
+            </div>
+            {{/if}}
+            <form role="form" action="/login" method="POST">
+                <label for="username1">Username</label>
+                <div class="input-group">
+                    <span class="input-group-addon" id="addonUsr">👨</span>
+                    <input type="text" class="form-control" name="username" id="username1" placeholder="Username" aria-label="Username" aria-describedby="addonUsr">
+                </div>
+                <label for="password1">Password</label>
+                <div class="input-group">
+                    <span class="input-group-addon" id="addonPsw">🔒</span>
+                    <input type="password" class="form-control" name="password" id="password1" placeholder="Password" aria-label="Password" aria-describedby="addonPsw">
+                </div>
+                </br>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"><span>👨</span> Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
