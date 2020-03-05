@@ -1,7 +1,7 @@
 # PersonalTrainerBlog
 Personal Traner Website with wysiwyg editor
 
-www.katyaperrott.com
+www.katyaperrott.herokuapp.com
 
 Features:
 - Responsive design
@@ -30,6 +30,3 @@ Back-End:
    +pasport
    +sessions
    +cookies
-- GIT was used for version control.
-
-This is a personal website for a friend of mine and an excellent personal trainer which I have done for her. 
