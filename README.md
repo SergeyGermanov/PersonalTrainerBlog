@@ -1,5 +1,5 @@
 # PersonalTrainerBlog
-Personal Traner Website with wysiwyg editor
+Personal Trainer Website with wysiwyg editor
 
 http://katyatrainer.herokuapp.com/
 
