@@ -1,7 +1,7 @@
-var candy = ['L', 'Life', 'am', 'ang', '90', 'h', 'd', '!', 'scooter', 'aty', '1', 'k'];
+var candy = ['L'];
 var door = candy;
 var g = '@gmail.com';
-var mail = 'katyaperrott.pt';
+var mail = 'katyaperrott';
 
 
 module.exports.door = door;
