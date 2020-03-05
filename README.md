@@ -1,7 +1,8 @@
 # PersonalTrainerBlog
 Personal Traner Website with wysiwyg editor
 
-www.katyaperrott.herokuapp.com
+http://katyaperrott.herokuapp.com/
+
 
 Features:
 - Responsive design
