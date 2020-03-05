@@ -6,7 +6,6 @@ www.katyaperrott.herokuapp.com
 Features:
 - Responsive design
 - Message form
-- Multilanguage site (under testing)
 - WYSIWYG editor
 - Authentication with bcrypt hashing
 
@@ -19,14 +18,19 @@ Front-End
 
 Back-End:
 - Node.js 
-   +Handlerbars
-   +express
-   +exports
-   +path
-   +body-parser
-   +nodemailer
-   +nodemailer-smtp-transport
-   +SQLlite
-   +pasport
-   +sessions
-   +cookies
+    +bcryptjs
+    +body-parser
+    +cookie-parser
+    +db
+    +exports
+    +express
+    +express-handlebars
+    +express-session
+    +formidable
+    +fs
+    +nodemailer
+    +nodemailer-smtp-transport"
+    +passport
+    +passport-local
+    +path
+    +sqlite3
