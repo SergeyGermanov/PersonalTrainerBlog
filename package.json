@@ -19,7 +19,7 @@
     "express-session": "^1.15.6",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "nodemailer-smtp-transport": "^2.7.4",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
